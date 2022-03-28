@@ -40,7 +40,7 @@
     background: url("https://www.graphicpear.com/wp-content/uploads/2017/11/Stripe.com-Website-3D.jpg") no-repeat center center/cover;
 }
 
-.hero-1-box > div > div
+.skew-cancel
 {
     @apply h-full -skew-x-12 relative flex items-center w-full;
 }
@@ -52,10 +52,18 @@
 
 #content
 {
-    @apply text-white ml-auto;
-    width: calc(100% - 5vw);
+    @apply text-white p-4 w-3/4;
+    margin-left: 10%;
+    border-radius: 1rem;
 }
 #contact-form
 {
-    @apply flex items-center border-b border-amber-500 py-1 w-3/4;
+    @apply flex items-center border-b-2 border-purple-500 py-1 w-3/4;
+}
+.glass {
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }

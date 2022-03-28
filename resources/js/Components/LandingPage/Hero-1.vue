@@ -2,10 +2,11 @@
     <div class="hero-1-box">
     <!-- Left Skewed Div -->
         <div>
+            <div class="glass absolute rounded-2xl top-20 right-24 w-full h-[75%]"></div>
             <!-- Skew Canceling -->
-            <div class="float-right">
+            <div class="float-right skew-cancel">
                 <img :src="$page.props.assets + `/Site/sillouat.svg`" alt="">
-                <div id="content">
+                <div id="content" class=" relative z-40">
                     <h2 class="text-2xl">
                         We are Creative
                         &HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;&HorizontalLine;
@@ -27,7 +28,7 @@
 
     <!-- Right Skewed Div -->
         <div>
-            <div></div>
+            <div class="skew-cancel"></div>
         </div>
     <!-- Right Skewed Div End -->
     </div>
