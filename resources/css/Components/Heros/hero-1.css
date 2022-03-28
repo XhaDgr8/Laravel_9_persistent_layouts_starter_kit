@@ -1,0 +1,61 @@
+.hero-1-box
+{
+    @apply relative;
+    min-height: 90vh;
+    overflow-x: hidden;
+}
+
+.hero-1-box > div
+{
+    @apply
+    absolute top-0 skew-x-12 mb-12
+    overflow-hidden shadow-xl shadow-purple-100;
+    height: 95%;
+    width: calc(50% + 19rem);
+}
+
+.hero-1-box > div:nth-child(1)
+{
+    left: -20rem;
+    padding-left: 20rem;
+    border-radius: 0 40px 40px 0;
+    background-image:
+    radial-gradient(at 63% 59%, hsla(226,78%,72%,1) 0, transparent 45%),
+    radial-gradient(at 41% 94%, hsla(102,65%,75%,1) 0, transparent 43%),
+    radial-gradient(at 95% 53%, hsla(136,72%,72%,1) 0, transparent 46%),
+    radial-gradient(at 74% 87%, hsla(270,93%,67%,1) 0, transparent 43%),
+    radial-gradient(at 94% 99%, hsla(113,99%,65%,1) 0, transparent 43%),
+    radial-gradient(at 94% 40%, hsla(212,90%,62%,1) 0, transparent 51%),
+    radial-gradient(at 43% 47%, hsla(52,81%,77%,1) 0, transparent 59%);
+}
+
+.hero-1-box > div:nth-child(2)
+ {
+     right: -20rem;
+     border-radius: 40px 0 0 40px;
+ }
+.hero-1-box > div:nth-child(2) > div
+{
+    margin-left: -5rem;
+    background: url("https://www.graphicpear.com/wp-content/uploads/2017/11/Stripe.com-Website-3D.jpg") no-repeat center center/cover;
+}
+
+.hero-1-box > div > div
+{
+    @apply h-full -skew-x-12 relative flex items-center w-full;
+}
+
+.hero-1-box > div > div > img
+{
+    @apply w-5/12 absolute bottom-5 left-5 opacity-5;
+}
+
+#content
+{
+    @apply text-white ml-auto;
+    width: calc(100% - 5vw);
+}
+#contact-form
+{
+    @apply flex items-center border-b border-amber-500 py-1 w-3/4;
+}

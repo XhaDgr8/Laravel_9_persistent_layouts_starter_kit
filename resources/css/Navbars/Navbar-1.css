@@ -1,0 +1,26 @@
+.header
+{
+    @apply fixed top-0 w-full z-40;
+}
+
+.header > div {
+    @apply mx-auto flex py-1 w-11/12;
+}
+
+.header > div > a
+{
+    @apply flex;
+}
+
+.header > div > a > h1 {
+    @apply ml-3 text-3xl font-bold mt-2;
+}
+
+.header > div > nav
+{
+    @apply flex flex-wrap items-center text-base justify-center md:ml-auto
+}
+
+.header > div > nav > a {
+    @apply mr-5 hover:text-gray-900;
+}

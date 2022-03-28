@@ -1,0 +1,23 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+@import "buttons.css";
+@import "Inputs.css";
+
+
+@import "Navbars/Navbar-1.css";
+@import "Components/Heros/hero-1.css";
+
+
+
+h1
+{
+    @apply font-serif
+}
+
+body {
+    background-color: #fefefe;
+}
